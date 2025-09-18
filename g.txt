@@ -1,0 +1,3 @@
+git config --global user.name "ORCUSio"
+git config --global user.email "kusum.aayushi@gmail.com"
+cat ~/.git-credentials
