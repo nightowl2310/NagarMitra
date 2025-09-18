@@ -111,7 +111,7 @@ export function NavbarSearch() {
         <div className={classes.collections}>
           {collectionLinks}
           <a
-            href="https://wkhsp-report---analytics-gd8rbqncxvkcfzjj2jg4zs.streamlit.app/"
+            href="http://117.239.195.147:8501/"
             target="_blank"
             className={classes.collectionLink}
           >
