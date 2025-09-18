@@ -35,6 +35,8 @@ const collections = [
   { emoji: "⏳", label: "Pendings" },
   { emoji: "💸", label: "Profits" },
   { emoji: "🌎", label: "Maps" },
+  { emoji: "📞", label: "AI Voice Call" },
+  { emoji: "📱", label: "Digital Media" },
 ];
 
 export function NavbarSearch() {
@@ -128,6 +130,8 @@ export function NavbarSearch() {
               AI Scheduler
             </span>{" "}
           </a>
+
+          
         </div>
       </div>
     </nav>

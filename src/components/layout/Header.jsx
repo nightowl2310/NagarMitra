@@ -28,7 +28,7 @@ import {
   IconChevronDown,
 } from "@tabler/icons-react";
 import classes from "./HeaderMegaMenu.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/NagarMitra logo.png";
 const mockdata = [
   {
     icon: IconCode,
