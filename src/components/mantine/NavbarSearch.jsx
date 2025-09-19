@@ -33,13 +33,13 @@ const links = [
 
 
 const collections = [
+  { emoji: "📞", label: "AI Voice Call" },  
   { emoji: "🤖", label: "AI Scheduler", href: "http://117.239.195.147:8502/" },
   { emoji: "⏳", label: "Pendings" },
   { emoji: "💸", label: "Revenue" },
   { emoji: "🚚", label: "Equipments" },
   { emoji: "🌎", label: "Maps" },
   // { emoji: "💬", label: "Telegram" , url: "https://t.me/civic2k25Bot"},
-  { emoji: "📞", label: "AI Voice Call" },
   { emoji: "📱", label: "Digital Media" }, 
   // { emoji: "📝", label: "AI Reports", url: "http://117.239.195.147:8501/" },
 ];
