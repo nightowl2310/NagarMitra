@@ -30,6 +30,8 @@ const links = [
   },
 ];
 
+
+
 const collections = [
   { emoji: "🚚", label: "Equipments" },
   { emoji: "⏳", label: "Pendings" },
@@ -110,6 +112,18 @@ export function NavbarSearch() {
         </Group>
         <div className={classes.collections}>
           {collectionLinks}
+          
+          <a
+            href="http://117.239.195.147:8502/"
+            target="_blank"
+            className={classes.collectionLink}
+          >
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>🤖</span>{" "}
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
+              AI Scheduler
+            </span>{" "}
+          </a>
+
           <a
             href="http://117.239.195.147:8501/"
             target="_blank"
@@ -118,16 +132,6 @@ export function NavbarSearch() {
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>📝</span>{" "}
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
               AI Reports
-            </span>{" "}
-          </a>
-          <a
-            href="https://nagar-mitra-scheduler.onrender.com/"
-            target="_blank"
-            className={classes.collectionLink}
-          >
-            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>🤖</span>{" "}
-            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
-              AI Scheduler
             </span>{" "}
           </a>
 
