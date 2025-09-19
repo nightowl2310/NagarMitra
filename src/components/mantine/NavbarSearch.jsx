@@ -33,7 +33,7 @@ const links = [
 
 
 const collections = [
-  // { emoji: "🤖", label: "AI Scheduler", url: "http://117.239.195.147:8502/" },
+  { emoji: "🤖", label: "AI Scheduler", href: "http://117.239.195.147:8502/" },
   { emoji: "⏳", label: "Pendings" },
   { emoji: "💸", label: "Revenue" },
   { emoji: "🚚", label: "Equipments" },
@@ -61,7 +61,23 @@ export function NavbarSearch() {
     </Link>
   ));
 
-  const collectionLinks = collections.map((collection) => (
+  const collectionLinks = collections.map((collection) =>
+  collection.href ? (
+    <a
+      href={collection.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      key={collection.label}
+      className={classes.collectionLink}
+    >
+      <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
+        {collection.emoji}
+      </span>
+      <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
+        {collection.label}
+      </span>
+    </a>
+  ) : (
     <Link
       to={collection.label}
       key={collection.label}
@@ -69,12 +85,13 @@ export function NavbarSearch() {
     >
       <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
         {collection.emoji}
-      </span>{" "}
+      </span>
       <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
         {collection.label}
-      </span>{" "}
+      </span>
     </Link>
-  ));
+  )
+);
 
   return (
     <nav className={classes.navbar}>
@@ -116,7 +133,7 @@ export function NavbarSearch() {
         <div className={classes.collections}>
           {collectionLinks}
           
-          <a
+          {/* <a
             href="http://117.239.195.147:8502/"
             target="_blank"
             className={classes.collectionLink}
@@ -125,7 +142,7 @@ export function NavbarSearch() {
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
               AI Scheduler
             </span>{" "}
-          </a>
+          </a> */}
 
           <a
             href="https://t.me/civic2k25Bot"
