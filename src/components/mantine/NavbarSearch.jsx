@@ -33,7 +33,7 @@ const links = [
 const collections = [
   { emoji: "🚚", label: "Equipments" },
   { emoji: "⏳", label: "Pendings" },
-  { emoji: "💸", label: "Profits" },
+  { emoji: "💸", label: "Revenue" },
   { emoji: "🌎", label: "Maps" },
   { emoji: "📞", label: "AI Voice Call" },
   { emoji: "📱", label: "Digital Media" },

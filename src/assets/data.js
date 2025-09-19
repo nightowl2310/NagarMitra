@@ -913,7 +913,7 @@ export const Pendings = [
   },
 ];
 
-export const Profits = [
+export const Revenue = [
   {
     project_id: 1,
     project_name: "Road Repair",

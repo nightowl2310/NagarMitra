@@ -48,8 +48,8 @@ const router = createBrowserRouter([
         element: <TableSelection mocks={Pendings} />,
       },
       {
-        path: "/Profits",
-        element: <TableSelection mocks={Profits} />,
+        path: "/Revenue",
+        element: <TableSelection mocks={Revenue} />,
       },
       {
         path: "/Reports",
@@ -389,7 +389,7 @@ import { TableSort } from "./components/mantine/TableSort";
 import { AreaChartHero } from "./components/admin/AreaChartHero";
 import { NavbarSearch } from "./components/mantine/NavbarSearch";
 import { TableSelection } from "./components/mantine/TableSelection";
-import { Equipment, Pendings, Profits, Scheduling } from "./assets/data";
+import { Equipment, Pendings, Revenue, Scheduling } from "./assets/data";
 import Maps from "./components/user/Maps";
 
 export const DummyKanban = () => {

@@ -29,6 +29,7 @@ import {
 } from "@tabler/icons-react";
 import classes from "./HeaderMegaMenu.module.css";
 import logo from "../../assets/NagarMitra logo.png";
+import { Link } from "react-router-dom";
 const mockdata = [
   {
     icon: IconCode,
@@ -38,9 +39,10 @@ const mockdata = [
   },
   {
     icon: IconCoin,
-    title: "Profits",
+    title: "Revenue",
+    Link: "../../mantine/NavbarSearch.jsx",
     description:
-      "Track and analyze your profit margins and financial performance.",
+      "Track and analyze your Revenue and financial performance.",
   },
   {
     icon: IconBook,
