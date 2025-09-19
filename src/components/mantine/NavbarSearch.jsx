@@ -33,15 +33,15 @@ const links = [
 
 
 const collections = [
-  { emoji: "🤖", label: "AI Scheduler", url: "http://117.239.195.147:8502/" },
+  // { emoji: "🤖", label: "AI Scheduler", url: "http://117.239.195.147:8502/" },
   { emoji: "⏳", label: "Pendings" },
   { emoji: "💸", label: "Revenue" },
   { emoji: "🚚", label: "Equipments" },
   { emoji: "🌎", label: "Maps" },
-  { emoji: "💬", label: "Telegram" , url: "https://t.me/civic2k25Bot"},
+  // { emoji: "💬", label: "Telegram" , url: "https://t.me/civic2k25Bot"},
   { emoji: "📞", label: "AI Voice Call" },
   { emoji: "📱", label: "Digital Media" }, 
-  { emoji: "📝", label: "AI Reports", url: "http://117.239.195.147:8501/" },
+  // { emoji: "📝", label: "AI Reports", url: "http://117.239.195.147:8501/" },
 ];
 
 export function NavbarSearch() {
@@ -116,7 +116,7 @@ export function NavbarSearch() {
         <div className={classes.collections}>
           {collectionLinks}
           
-          {/* <a
+          <a
             href="http://117.239.195.147:8502/"
             target="_blank"
             className={classes.collectionLink}
@@ -124,6 +124,17 @@ export function NavbarSearch() {
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>🤖</span>{" "}
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
               AI Scheduler
+            </span>{" "}
+          </a>
+
+          <a
+            href="https://t.me/civic2k25Bot"
+            target="_blank"
+            className={classes.collectionLink}
+          >
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>📲</span>{" "}
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
+              Telegram
             </span>{" "}
           </a>
 
@@ -136,7 +147,7 @@ export function NavbarSearch() {
             <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
               AI Reports
             </span>{" "}
-          </a> */}
+          </a>
 
           
         </div>
