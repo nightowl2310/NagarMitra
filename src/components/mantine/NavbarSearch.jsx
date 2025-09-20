@@ -155,6 +155,14 @@ export function NavbarSearch() {
             </span>{" "}
           </a>
 
+          <Link to="http://127.0.0.1:5500/NagarMitra_select_topics.html
+" className={classes.collectionLink}>
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>📱</span>
+            <span style={{ marginRight: rem(9), fontSize: rem(16) }}>
+              Digital Media
+            </span>
+          </Link>
+          
           <a
             href="http://117.239.195.147:8501/"
             target="_blank"
